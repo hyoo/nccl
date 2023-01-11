@@ -95,4 +95,10 @@
 
 #define NPKIT_PRIM_COLLECT_DATA_PROCESS_TIME                    0x4F
 
+#define NPKIT_EVENT_ALL_GATHER_RING_ENTRY                       0x50
+#define NPKIT_EVENT_ALL_GATHER_RING_EXIT                        0x51
+
+#define NPKIT_EVENT_REDUCE_SCATTER_RING_ENTRY                   0x60
+#define NPKIT_EVENT_REDUCE_SCATTER_RING_EXIT                    0x61
+
 #endif
